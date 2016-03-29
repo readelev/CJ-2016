@@ -13,7 +13,7 @@ found "janitorial" but not "janitor" (dataset should be able to be found under b
 http://catalog.data.gov/dataset/services-annual-survey
 
 searched "university acceptance" and filtered by Dataset type, choosing geospatial
-could filter by location, choosing California :grinning: :EMOJICODE:
+could filter by location, choosing California :grinning:
 
 **Open Data Network**
 
@@ -23,7 +23,6 @@ did not include BL stats that data.gov had
 
 wayyyyyy too little to "refine by", could only choose between "Publishers" or "Catagories", both of which too limited
 ![Screen Shots](/desktop/sshot1.png)
-(/desktop/sshot2.png)
 
 
 
