@@ -30,7 +30,7 @@ Had the same issue (as data.gov) of not including search results for "janitor" w
 
 There's also no way to (usefully) refine a search on **Open Data Network**. I could only choose between "Publishers" or "Catagories", both of which seemed to do nothing to limit my search. 
 
-![Screen Shot](cj-2016/week-01/sshot1.png) ![Screen Shot 2](cj-2016/week-01/sshot2.png)
+![Screen Shot](https://github.com/readelev/cj-2016/week-01/sshot1.png) ![Screen Shot 2](https://github.com/readelev/cj-2016/week-01/sshot2.png)
 
 ##data.cityofpaloalto.org
 
@@ -41,10 +41,10 @@ Within each dataset, I think more variables could be collected to make the datas
 I also couldn't find a statistic for total datasets involved.
 
 ##Federal Electtion Commission
-  
+
 While the others portals made finding interesting datasets easier, FEC's portal was difficult to sift though without a plan. The layout of the FEC page takes me back to the 90's where I have to scroll through undifferentiated results akin to what a Yahoo search would produce and then fill in bubbles before downloading my data (see images below):
   
-![Image of FEC Search Results](cj-2016/week-01/Screen Shot 2016-03-29 at 4.03.38 PM.png)
+![FEC Search Results](https://github.com/readelev/cj-2016/week-01/Screen Shot 2016-03-29 at 4.03.38 PM.png)
 
 I wanted to know more about each dataset and the data collected before being asked to choose a download option. At the same time, I thought the RSS feed option was cool (does this mean you can track updates?)
 
@@ -59,17 +59,27 @@ I liked **data.gov.uk** much better than its American cousin mostly because of t
 I liked that all datasets related to a particular theme, for example, the monthly data for planned road works, were grouped together on the same page with extraneous data (in this case, from 2015 and backwards) minimized and represented only one search result through the main portal.
 
 
-Trying to get fancy with Markdown, I created a table of XX (below). Portals are ranked on a scale of :perservere: to :kissing_heart:, with :kissing_heart: ranking slightly higher than :grinning:, and so on.
+Trying to get fancy with Markdown, I created a table of XX (below). Portals are ranked on a scale of :persevere: to :kissing_heart:, with :kissing_heart: ranking slightly higher than :grinning:, and so on.
 
-lowest :perservere: :disappointed: :expressionless: :grinning: :kissing_heart: highest
+lowest :persevere: :disappointed: :expressionless: :grinning: :kissing_heart: highest
 
 | data.gov | Open Data Network | data.cityofpaloalto | FEC | data.gov.uk
 ---------- | ---------- | ---------- | ---------- | ---------- | ---------- 
-Ability to refine search | :expressionless: | :perservere: | :disappointed: | :grinning: | :grinning:
+Ability to refine search | :expressionless: | :persevere: | :disappointed: | :grinning: | :grinning:
 Ease of use |:disappointed: |:grinning: |:expressionless: | :disappointed:| :kissing_heart:
 No. datasets | :kissing_heart: | :grinning: | ? | ? | :grinning:
 Usefulness of data | :grinning: | :grinning: | :disappointed: | :grinning: | :grinning:
 Finding interesting datasets | :disappointed: | :expressionless: | :expressionless: | :disappointed: | :grinning:
 
+#Giancarlo Esposito
 
+Data: http://www.nyc.gov/html/nypd/html/analysis_and_planning/stop_question_and_frisk_report.shtml
+
+Here's the relevant paragraph:
+>Days before the interview, Esposito was stopped and frisked by New York police while walking out of a theater 
+>where he was rehearsing a play. After several frantic minutes – with him and officers screaming, and their guns 
+>drawn – they realized they had the wrong guy. Their suspect had a hoodie, and Esposito was wearing a suit. When 
+>it was over, one of the officers recognized him, from his recent turn on ABC's "Once Upon a Time."
+
+I'm not sure how I would do this, mostly because I don't know what each column refers to in the dataset...but I could at least limit by "In/Out" (Esposito was let go) and by date, within a couple of days of the interview. I could also limit by location (Manhattan) and, presumably, theatre.
 
