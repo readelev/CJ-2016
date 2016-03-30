@@ -63,7 +63,7 @@ Trying to get fancy with Markdown, I created a table of XX (below). Portals are 
 
 lowest :persevere: :disappointed: :expressionless: :grinning: :kissing_heart: highest
 
-*catagory* | data.gov | Open Data Network | data.cityofpaloalto | FEC.gov/data | data.gov.uk
+*category* | data.gov | Open Data Network | data.cityofpaloalto | FEC.gov/data | data.gov.uk
 ---------- | ---------- | ---------- | ---------- | ---------- | ---------- 
 Ability to refine search | :expressionless: | :persevere: | :disappointed: | :grinning: | :grinning:
 Ease of use |:disappointed: |:grinning: |:expressionless: | :disappointed:| :kissing_heart:
