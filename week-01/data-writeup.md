@@ -30,7 +30,7 @@ Had the same issue (as data.gov) of not including search results for "janitor" w
 
 There's also no way to (usefully) refine a search on **Open Data Network**. I could only choose between "Publishers" or "Catagories", both of which seemed to do nothing to limit my search. 
 
-![Screen Shot](https://github.com/readelev/cj-2016/week-01/sshot1.png) ![Screen Shot 2](https://github.com/readelev/cj-2016/week-01/sshot2.png)
+![Screen Shot](https://github.com/readelev/cj-2016/week-01/sshot1.png) ![Screen Shot 2](cj-2016/week-01/sshot1.png)
 
 ##data.cityofpaloalto.org
 
