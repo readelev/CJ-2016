@@ -2,6 +2,8 @@
 
 (First time using GitHub, so apologies if this is rough.)
 
+Note: can't get my embedded images to work?
+
 ##data.gov
 
 194,758 datasets.
