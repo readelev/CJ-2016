@@ -30,7 +30,7 @@ Had the same issue (as data.gov) of not including search results for "janitor" w
 
 There's also no way to (usefully) refine a search on **Open Data Network**. I could only choose between "Publishers" or "Catagories", both of which seemed to do nothing to limit my search. 
 
-![Screen Shots](/desktop/sshot1.png)
+![Screen Shot](cj-2016/week-01/sshot1.png) ![Screen Shot 2](cj-2016/week-01/sshot2.png)
 
 ##data.cityofpaloalto.org
 
@@ -44,7 +44,7 @@ I also couldn't find a statistic for total datasets involved.
   
 While the others portals made finding interesting datasets easier, FEC's portal was difficult to sift though without a plan. The layout of the FEC page takes me back to the 90's where I have to scroll through undifferentiated results akin to what a Yahoo search would produce and then fill in bubbles before downloading my data (see images below):
   
-![Image of FEC Search Results](link here)
+![Image of FEC Search Results](cj-2016/week-01/Screen Shot 2016-03-29 at 4.03.38 PM.png)
 
 I wanted to know more about each dataset and the data collected before being asked to choose a download option. At the same time, I thought the RSS feed option was cool (does this mean you can track updates?)
 
