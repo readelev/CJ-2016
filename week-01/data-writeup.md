@@ -63,7 +63,7 @@ Trying to get fancy with Markdown, I created a table of XX (below). Portals are 
 
 lowest :persevere: :disappointed: :expressionless: :grinning: :kissing_heart: highest
 
-| data.gov | Open Data Network | data.cityofpaloalto | FEC | data.gov.uk
+*catagory* | data.gov | Open Data Network | data.cityofpaloalto | FEC.gov/data | data.gov.uk
 ---------- | ---------- | ---------- | ---------- | ---------- | ---------- 
 Ability to refine search | :expressionless: | :persevere: | :disappointed: | :grinning: | :grinning:
 Ease of use |:disappointed: |:grinning: |:expressionless: | :disappointed:| :kissing_heart:
@@ -81,5 +81,10 @@ Here's the relevant paragraph:
 >drawn – they realized they had the wrong guy. Their suspect had a hoodie, and Esposito was wearing a suit. When 
 >it was over, one of the officers recognized him, from his recent turn on ABC's "Once Upon a Time."
 
-I'm not sure how I would do this, mostly because I don't know what each column refers to in the dataset...but I could at least limit by "In/Out" (Esposito was let go) and by date, within a couple of days of the interview. I could also limit by location (Manhattan) and, presumably, theatre.
+I'm not sure how I would do this, mostly because I don't know what each column refers to in the dataset...
+
+BUT I could at least limit by
+1. "In/Out" (Esposito was let go)
+2. By date, within a couple of days of the interview. 
+3. Location (Manhattan) and, presumably, a bit more accurate if I get an address of the theater.
 
