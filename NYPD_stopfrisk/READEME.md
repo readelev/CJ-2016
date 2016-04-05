@@ -11,7 +11,7 @@ Running [this script](https://github.com/readelev/cj-2016/blob/master/week-02/fi
 
 **Can you confirm the ratio of innocent people stopped-and-frisked that the NY ACLU reports?**
 
-The ACLU claims:
+[The ACLU claims](http://www.nyclu.org/content/stop-and-frisk-data):
 
 In 2010, New Yorkers were stopped by the police 601,285 times.
 - 518,849 were totally innocent (86 percent).
@@ -51,8 +51,41 @@ In 2015, New Yorkers were stopped by the police 22,939 times.
 - 2,567 were Latino (11 percent).
 - 6,598 were white (29 percent).
 
-I pulled the data [using this]() and ran a [this loop](). Here's what I found:
+I pulled the data and ran [this script](https://github.com/readelev/cj-2016/blob/master/NYPD_stopfrisk/ACLUclaimCheck.py). Here's what I found:
 
+*Note 1: the ACLU calculations included only total stops, total innocent and a race breakdown in terms of black, Latino, and white, so I've only included those values.*
+
+*Note 2: the NYPD recorded races of "black hispanic" and "white hispanic", but not "Latino". The ACLU's data for Latino arrests was consistent with the sum of "black hispanic" and "white hispanic" arrests.*
+
+*Note 3: the CSV files for 2011 were in some way corrupted (kept getting error messages), so I've only calculated values from 2012 onward.*
+
+In 2012, New Yorkers were stopped by the police 532911 times.
+- 473644 were totally innocent. 89 percent.
+- 284229 were black. 53 percent. (This differs from the ACLU value by 2%, or the same value as pestops of race "other". Perhaps the ACLU added these categories?)
+- 35772 were black hispanic. 7 percent.
+- 129368 were white hispanic. 24 percent.
+- 50366 were white. 9 percent.
+
+In 2013, New Yorkers were stopped by the police 191851 times.
+- 169662 were totally innocent. 88 percent.
+- 104449 were black. 54 percent. (Again, I think the ACLU added the "other" race category to their number.)
+- 12271 were black hispanic. 6 percent.
+- 42659 were white hispanic. 22 percent.
+- 20820 were white. 11 percent.
+
+In 2014, New Yorkers were stopped by the police 45787 times.
+- 37744 were totally innocent. 82 percent.
+- 24319 were black. 53 percent.
+- 2789 were black hispanic. 6 percent.
+- 9700 were white hispanic. 21 percent.
+- 5467 were white. 12 percent.
+
+In 2015, New Yorkers were stopped by the police 22563 times.
+- 18066 were totally innocent. 80 percent.
+- 11950 were black. 53 percent.
+- 1409 were black hispanic. 6 percent.
+- 5090 were white hispanic. 23 percent.
+- 2514 were white. 11 percent. (Here, the ACLU's data mixed up Latino and white arrests.)
 
 
 
