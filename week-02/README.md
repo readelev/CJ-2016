@@ -16,7 +16,7 @@ Scripts included in the folder week-02:
 
 Find:
 
-* Total the number of individuals affected = 158,027,958.
+* **Total** number of individuals affected = **158,027,958**.
 * Chart showing the number of individuals affected by year:
 
 Year | # individuals affected
@@ -32,17 +32,18 @@ Year | # individuals affected
 
 * Attempt to ascertain whether or not electronic records are more prone to violation than non-electronic records.
 
+For this prompt, I used the USDH's classification "Location of Breached Information" to determine if the breaches involved paper or electronic records. The "Location" category had a million different potential values, including: Network server, email, paper/films, desktop computer, etc. (In my pivot table, I found 64 different potential values.) For the purpose of this assignment, if the "Location" category contained any mention of paper/films, I included the breach under "Paper". All other breaches fell under "Electronic". Anything with location "other" or "unknown" was not included in either category, but counted as part of the total.
 
 comparison | Paper | Electronic
-----------| ---------- | ----------
-# breaches | 343 | 1,175
-# affected | 373 | 1,122
+----------| ---------- | ---------- 
+# breaches | 381 (25%) | 970 (64%)
+# affected | 2,984,622 (1.9%) | 14,381,1574 (91 %)
 
-* Paragraph or so explaining why it is difficult to ascertain any paper vs. electronic trend, in terms of pure numbers. T(This includes thinking about the limitations of the data and how it was collected and recorded.):
+I found that that electronic records had more breaches than non-electronic records (only 25% of breaches involved any sort of paper records), but it was impossible to make any sort of useful comparison between paper vs. electronic because of the way the data was collected.
 
-The data was collected by "Location of Breached Information", which doesn't specify *how* the breach occured, which almost matters more than *where* the breach occured. Like, a computer stolen from a desk is a non-electronic breach in the same way that papers being misplaced/lost are a non-electronic breach: no one downloaded data or hacked into a system in order to get HIPAA data. However, the USDH records the "Location of Breached Information" when a computer is stolen as a "Network Server" breach, the same sort of breach hacking into web servers. 
+My classification of "paper" versus "electronic" is derived from USDH's "Location" column, which doesn't specify *how* the breach occured. The *how* matters much more than *where*, for example, USDH classifies a breach that occured when a computer was stolen off a desk as an "electronic breach" because the data was located on a computer. This means "electronic" breaches, according to USDH, do not mean a system was hacked but rather the data was located on some sort of electronic device. So we can't use this to draw conclusions as to whether electronic records are more prone to violation than paper records.
 
-To make it worse, there's a HUGE variety in what's written down for "Location of Breached Information". In my pivot table, I found 64 different potential values. Many cells wrote in many locations, "Paper/Films" along with "Laptop" or "Email", making it hard to categorize.
+(Cleaned spreadsheet with column delineating Paper/Electronic can be found [here](https://github.com/readelev/cj-2016/blob/master/week-02/breach_report_CLEANED.csv))
 
 This was done in excel, but [here's a script that does a simple count](https://github.com/readelev/cj-2016/blob/master/week-02/scrapingHealth.py).
 
@@ -64,7 +65,7 @@ Year | Layoffs
 2016 | 53787
 *Total* | 268748
 
-CSV's [here](https://github.com/readelev/cj-2016/blob/master/week-02/CA_data/).
+CSV's [here](https://github.com/readelev/cj-2016/blob/master/week-02/CA_Data).
 
 Total number of California job losses I calculated from 2012 to today = 268,748.
 
@@ -80,9 +81,7 @@ Year | Layoffs
 2015 | 1563260
 **Total** | 1571136
 
-CSV's [here](https://github.com/readelev/cj-2016/blob/master/week-02/Ohio_data/).
-
-*Note: I have to clean the spreadsheets for 2012 and 2013 before I can use them (due to whitespaces).*
+Downloaded CSV's [here](https://github.com/readelev/cj-2016/blob/master/week-02/Ohio_Data) plus the cleaned CSV's for [2012]() and [2013]().
 
 The total number of jobs listed for 2014 and 2015 = 1,571,136.
 
