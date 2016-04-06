@@ -45,7 +45,7 @@ My classification of "paper" versus "electronic" is derived from USDH's "Locatio
 
 (Cleaned spreadsheet with column delineating Paper/Electronic can be found [here](https://github.com/readelev/cj-2016/blob/master/week-02/breach_report_CLEANED.csv)).
 
-This was done in excel, but [here's a script that does a simple count](https://github.com/readelev/cj-2016/blob/master/week-02/scrapingHealth.py).
+This was done in Excel, but [here's a script that does a simple count](https://github.com/readelev/cj-2016/blob/master/week-02/scrapingHealth.py).
 
 
 # 2. Aggregate the job losses as recorded by the California WARN act
@@ -80,7 +80,7 @@ Year | Layoffs
 2015 | 1563260
 **Total** | 1571136
 
-Downloaded CSV's [here](https://github.com/readelev/cj-2016/blob/master/week-02/Ohio_Data) plus the cleaned CSV's for [2012]() and [2013]() **not yet added**.
+Downloaded CSV's [here](https://github.com/readelev/cj-2016/blob/master/week-02/Ohio_Data) plus the cleaned CSV's for [2012]() and [2013]() (**not yet added, sorry!)**.
 
 The **total** number of jobs listed for 2014 and 2015 = **1,571,136**.
 
