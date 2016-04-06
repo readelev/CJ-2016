@@ -2,7 +2,7 @@
 
 ![img](http://placekitten.com/200/300)
 
-Other random scripts included in the folder week-02 (besides hw):
+Other scripts included in the folder week-02 (besides hw):
 * Basic [scraping script](https://github.com/readelev/cj-2016/blob/master/week-02/scraping.py) to download all [this data](http://www.nyc.gov/html/nypd/html/analysis_and_planning/stop_question_and_frisk_report.shtml) from NYPD's stop and frisk program
 * [Script to unzip](https://github.com/readelev/cj-2016/blob/master/week-02/unpacker.py) all downloaded files at once
 
@@ -43,7 +43,7 @@ I found that that electronic records had more breaches than non-electronic recor
 
 My classification of "paper" versus "electronic" is derived from USDH's "Location" column, which doesn't specify *how* the breach occured. The *how* matters much more than *where*, for example, USDH classifies a breach that occured when a computer was stolen off a desk as an "electronic breach" because the data was located on a computer. This means "electronic" breaches, according to USDH, do not mean a system was hacked but rather the data was located on some sort of electronic device. So we can't use this to draw conclusions as to whether electronic records are more prone to violation than paper records.
 
-(Cleaned spreadsheet with column delineating Paper/Electronic can be found [here](https://github.com/readelev/cj-2016/blob/master/week-02/breach_report_CLEANED.csv))
+(Cleaned spreadsheet with column delineating Paper/Electronic can be found [here](https://github.com/readelev/cj-2016/blob/master/week-02/breach_report_CLEANED.csv)).
 
 This was done in excel, but [here's a script that does a simple count](https://github.com/readelev/cj-2016/blob/master/week-02/scrapingHealth.py).
 
