@@ -9,6 +9,8 @@ What do we know about Alvin's arrest that can be uased to find his info in the d
 
 Running [this script](https://github.com/readelev/cj-2016/blob/master/week-02/findAlvin.py), we've narrowed down our search to X entries...
 
+This part is unfinished!
+
 **Can you confirm the ratio of innocent people stopped-and-frisked that the NY ACLU reports?**
 
 [The ACLU claims](http://www.nyclu.org/content/stop-and-frisk-data):
