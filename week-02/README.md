@@ -2,7 +2,7 @@
 
 ![img](http://placekitten.com/200/300)
 
-Scripts included in the folder week-02:
+Other random scripts included in the folder week-02 (besides hw):
 * Basic [scraping script](https://github.com/readelev/cj-2016/blob/master/week-02/scraping.py) to download all [this data](http://www.nyc.gov/html/nypd/html/analysis_and_planning/stop_question_and_frisk_report.shtml) from NYPD's stop and frisk program
 * [Script to unzip](https://github.com/readelev/cj-2016/blob/master/week-02/unpacker.py) all downloaded files at once
 
@@ -50,8 +50,7 @@ This was done in excel, but [here's a script that does a simple count](https://g
 
 # 2. Aggregate the job losses as recorded by the California WARN act
 
-Python script [here](https://github.com/readelev/cj-2016/blob/master/week-02/jobData.py). The script:
-
+Python script [here](https://github.com/readelev/cj-2016/blob/master/week-02/jobData.py):
 * Downloads all of the PDF WARN reports for California, which can be found here: http://www.edd.ca.gov/jobs_and_training/Layoff_Services_WARN.htm
 * Extracts tabular data from each PDF and serializes it as CSV (i.e. saves it as a CSV file). 
 
@@ -63,15 +62,15 @@ Year | Layoffs
 2014b | 12907
 2015 | 68394
 2016 | 53787
-*Total* | 268748
+**Total:** | **268748**
 
-CSV's [here](https://github.com/readelev/cj-2016/blob/master/week-02/CA_Data).
+CSV files can be found [here](https://github.com/readelev/cj-2016/blob/master/week-02/CA_Data).
 
-Total number of California job losses I calculated from 2012 to today = 268,748.
+**Total** number of California job losses, from 2012 to today = **268,748**.
 
 # 3. Download and process a data file from another state's WARN Act
 
-Relevant Python code (for downloading the data) [here](https://github.com/readelev/cj-2016/blob/master/week-02/OhioWARNdata.py)
+Relevant Python code for downloading data [here](https://github.com/readelev/cj-2016/blob/master/week-02/OhioWARNdata.py).
 
 Year | Layoffs
 ---------- | ----------
@@ -81,9 +80,9 @@ Year | Layoffs
 2015 | 1563260
 **Total** | 1571136
 
-Downloaded CSV's [here](https://github.com/readelev/cj-2016/blob/master/week-02/Ohio_Data) plus the cleaned CSV's for [2012]() and [2013]().
+Downloaded CSV's [here](https://github.com/readelev/cj-2016/blob/master/week-02/Ohio_Data) plus the cleaned CSV's for [2012]() and [2013]() **not yet added**.
 
-The total number of jobs listed for 2014 and 2015 = 1,571,136.
+The **total** number of jobs listed for 2014 and 2015 = **1,571,136**.
 
 
 
