@@ -37,7 +37,7 @@ For this prompt, I used the USDH's classification "Location of Breached Informat
 comparison | Paper | Electronic
 ----------| ---------- | ---------- 
 # breaches | 381 (25%) | 970 (64%)
-# affected | 2,984,622 (1.9%) | 14,381,1574 (91 %)
+# affected | 2,984,622 (1.9%) | 14,381,1574 (91%)
 
 I found that that electronic records had more breaches than non-electronic records (only 25% of breaches involved any sort of paper records), but it was impossible to make any sort of useful comparison between paper vs. electronic because of the way the data was collected.
 
@@ -59,7 +59,7 @@ Year | Layoffs
 2012 | 45546
 2013 | 58808
 2014 | 29306
-2014b | 12907
+2014 (part 2) | 12907
 2015 | 68394
 2016 | 53787
 **Total:** | **268748**
