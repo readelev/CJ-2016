@@ -17,7 +17,7 @@ First step is to download all the press briefings from President Obama's preside
 Then, [my "ALLTOGETHERNOW" script](https://github.com/readelev/cj-2016/tree/master/week-03/wh-briefings-ALLTOGETHERNOW.py):
 * Gathers all the index pages
 * Gets the text from each and parses the HTML
-* Selects for each <a> tag nested within <h3> tags
+* Selects for each "a" tag nested within "h3" tags
 * Creates a filename from the relative href path
 
 Finally, [this search](https://github.com/readelev/cj-2016/tree/master/week-03/wh-briefings-ISIL-search.py) opens each file and searches for mentions of ISIS or ISIL.

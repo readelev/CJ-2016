@@ -21,9 +21,9 @@ with open(l_fname, 'r') as rf:
 	txt = rf.read()
 
 indexsoup = BeautifulSoup(txt, "lxml")
-x = indexsoup.find_all(href=re.compile("last.html$"))
-for y in x:
-	END_URL = y.attrs['href']
+links = indexsoup.find_all(href=re.compile("last.html$"))
+for l in links:
+	END_URL = l.attrs['href']
 	url = BASE_URL + "/" + END_URL
 	print("Downloading from...\n", url)
 	resp = requests.get(url)
@@ -35,17 +35,31 @@ for y in x:
 		wf.write(resp.text)
 
 # 3. Glob through the downloaded URLs, come up with your own filter for "religious"/"non-religious" statements, e.g. does it contain "God"?
-def texasgodtester(soup)
+filenames = glob(join(LAST_DIR, "*.html"))
+for fname in filenames:
+	with open(fname, "r") as rf:
+		txt = rf.read()
+		txt = txt.upper()
 
-#unfinished...
+HOLYPATTERN = "God|Lord|Christ\w*|Islam|heaven|angel|creator|Allah|M[uo]hammed"
 
-HOLYWORDS = ["CHRIST", "GOD", "LORD", "HEAVEN", "HELL", "ALLAH", "CREATOR", "DIVINE"]
+def texasgodtester(txt)
+	pattern = re.compile('Offender:')
+
+	otag = txt.find('p', text=pattern)
+	offender_name = otag.find_next_sibling('p').text
+
+	is_religious = False
+	lastwords = txt.find('div', {'id':'body'}).text
+
 filenames = glob(join(LAST_DIR, "*.html"))
 for fname in filenames:
 	with open(fname, "r") as rf:
 		txt = rf.read()
 		txt = txt.upper()
 		for word in HOLYWORDS:
-		if re.search(r'\b' + word + '\b', txt):
-			print(fname, "mentions religion")
+			if 
+
+		#if re.search(r'\b' + word + '\b', txt):
+		#	print(fname, "mentions religion")
 
