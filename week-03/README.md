@@ -32,9 +32,18 @@ I found the **first mention of ISIS/ISIL was on October 31, 2013** in a [briefin
 Because Carney mentioned the "Islamic State of Iraq" before he mentioned the acronym "ISIL", I did a [search for "Islamic State of Iraq"](https://github.com/readelev/cj-2016/tree/master/week-03/wh-briefings-IslamicState-search.py) as well, just to make sure the first mention was on the same date (it was).
 
 
-##2. Count the number of mentions (including all variations in spelling) of ISIS, ISIL, Osama bin Laden, and Al-Qaeda within the published White House press briefings
+##2. List the name of every executed Texas inmate who did not mention religion in their final words: http://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html
 
-##3. List the name of every executed Texas inmate who did not mention religion in their final words: http://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html
+First, [this script](https://github.com/readelev/cj-2016/tree/master/week-03/texas-state-religion-search.py):
+* downloads [the list of death row inmates](http://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html), and;
+* uses regular expressions to extract and download the URLs corresponding to Last Statements, then;
+* searches for any mention of God, Jesus, Christ, etc., and;
+* prints a list of inmates who *did not* mention religion in their final words.
+
+
+#Nixed for this week's hw:
+
+##3. Count the number of mentions (including all variations in spelling) of ISIS, ISIL, Osama bin Laden, and Al-Qaeda within the published White House press briefings
 
 ##4. For the 2015 session of the Supreme Court, list the Supreme Court justices in descending order of number of times they talked, according to the oral transcripts: http://www.supremecourt.gov/oral_arguments/argument_transcript/2015
 
