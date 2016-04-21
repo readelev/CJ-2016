@@ -2,7 +2,7 @@
 
 How are we already so far into the quarter.
 
-![img](http://placekitten.com/800/100)
+![img](http://placekitten.com/700/200)
 
 # Homework
 
@@ -39,6 +39,10 @@ First, [this script](https://github.com/readelev/cj-2016/tree/master/week-03/tex
 * uses regular expressions to extract and download the URLs corresponding to Last Statements, then;
 * searches for any mention of God, Jesus, Christ, etc., and;
 * prints a list of inmates who *did not* mention religion in their final words.
+
+I found:
+217 death row inmates didn't mention religion.
+216 inmates mentioned religion in their last statement.
 
 
 #Nixed for this week's hw:

@@ -22,44 +22,41 @@ with open(l_fname, 'r') as rf:
 
 indexsoup = BeautifulSoup(txt, "lxml")
 links = indexsoup.find_all(href=re.compile("last.html$"))
-for l in links:
-	END_URL = l.attrs['href']
-	url = BASE_URL + "/" + END_URL
-	print("Downloading from...\n", url)
-	resp = requests.get(url)
+# for l in links:
+# 	END_URL = l.attrs['href']
+# 	url = BASE_URL + "/" + END_URL
+# 	print("Downloading from...\n", url)
+# 	resp = requests.get(url)
 
-	# create filename from relative href path
-	full_fname = join(LAST_DIR, END_URL.replace("dr_info/", ""))
-	print("Saving to...\n", full_fname)
-	with open(full_fname, "w") as wf:
-		wf.write(resp.text)
+# 	# create filename from relative href path
+# 	full_fname = join(LAST_DIR, END_URL.replace("dr_info/", ""))
+# 	print("Saving to...\n", full_fname)
+# 	with open(full_fname, "w") as wf:
+# 		wf.write(resp.text)
 
-# 3. Glob through the downloaded URLs, come up with your own filter for "religious"/"non-religious" statements, e.g. does it contain "God"?
-filenames = glob(join(LAST_DIR, "*.html"))
-for fname in filenames:
-	with open(fname, "r") as rf:
-		txt = rf.read()
-		txt = txt.upper()
-
-HOLYPATTERN = "God|Lord|Christ\w*|Islam|heaven|angel|creator|Allah|M[uo]hammed"
-
-def texasgodtester(txt)
-	pattern = re.compile('Offender:')
-
-	otag = txt.find('p', text=pattern)
-	offender_name = otag.find_next_sibling('p').text
-
-	is_religious = False
-	lastwords = txt.find('div', {'id':'body'}).text
+# 3. Glob through the downloaded URLs, come up with your own filter for 
+# "religious"/"non-religious" statements, e.g. does it contain "God"?
+HOLYPATTERN = "(GOD)|(LORD)|(ISLAM)|(CHRIST)|(CHRISTIAN)|(FAITH)|(HEAVEN)|(ANGEL)|(ALLAH)|(M[OU]HAMMED)"
+NOT_HOLY = []
+HOLY_MEN = []
 
 filenames = glob(join(LAST_DIR, "*.html"))
 for fname in filenames:
 	with open(fname, "r") as rf:
-		txt = rf.read()
-		txt = txt.upper()
-		for word in HOLYWORDS:
-			if 
+		lastwords = rf.read()
+		lastwords = lastwords.upper()
+		
+		offender_name = fname.replace("last_statements/", "")
+		offender_name = offender_name.replace("last.html", "")
 
-		#if re.search(r'\b' + word + '\b', txt):
-		#	print(fname, "mentions religion")
+		match = re.search(HOLYPATTERN, lastwords)
+		if match != None:
+			HOLY_MEN.append(offender_name)
+			print(match.span(0))
+			print(offender_name + " talked about " + str(match.group(0)))
+		else:
+			NOT_HOLY.append(offender_name)
 
+print(NOT_HOLY)
+print(str(len(NOT_HOLY)) + " death row inmates didn't mention religion.")
+print(str(len(HOLY_MEN)) + " inmates mentioned religion.")
