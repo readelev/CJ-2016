@@ -22,17 +22,17 @@ with open(l_fname, 'r') as rf:
 
 indexsoup = BeautifulSoup(txt, "lxml")
 links = indexsoup.find_all(href=re.compile("last.html$"))
-# for l in links:
-# 	END_URL = l.attrs['href']
-# 	url = BASE_URL + "/" + END_URL
-# 	print("Downloading from...\n", url)
-# 	resp = requests.get(url)
+for l in links:
+	END_URL = l.attrs['href']
+	url = BASE_URL + "/" + END_URL
+	print("Downloading from...\n", url)
+	resp = requests.get(url)
 
-# 	# create filename from relative href path
-# 	full_fname = join(LAST_DIR, END_URL.replace("dr_info/", ""))
-# 	print("Saving to...\n", full_fname)
-# 	with open(full_fname, "w") as wf:
-# 		wf.write(resp.text)
+	# create filename from relative href path
+	full_fname = join(LAST_DIR, END_URL.replace("dr_info/", ""))
+	print("Saving to...\n", full_fname)
+	with open(full_fname, "w") as wf:
+		wf.write(resp.text)
 
 # 3. Glob through the downloaded URLs, come up with your own filter for 
 # "religious"/"non-religious" statements, e.g. does it contain "God"?
