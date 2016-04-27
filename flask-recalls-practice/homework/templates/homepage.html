@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recalls</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+</head>
+<body>
+  <h1>This year's recall data</h1>
+  <p>There were {{recalls_count}} recalls in 2016.</p>
+  <table border="1">
+      {% for r in recalls %}
+        <tr>
+          <td>
+          	<div>
+          		<a href="{{ r['Images'][0]['URL'] }}">
+          		<img height="250" width="250" alt="No image available" src = "{{ r['Images'][0]['URL'] }}"></a>
+          	</div></td>
+          <td>
+          	<div>
+          		<a href="{{ r['Title'] }}"><href src = "{{ r['URL'] }}"> {{ r['Title'] }}</a>
+          	</div></td>
+          <td><div>{{ r['RecallDate'][0: -9] }}</div></td>
+        </tr>        
+      {% endfor %}        
+  </table>
+</body>
+
+
+
+
+
+
+
+
