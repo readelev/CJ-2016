@@ -15,7 +15,7 @@
 
 The site looks something like this:
 
-![img](http://imgur.com/i7roNGg)
+![img](http://i.imgur.com/i7roNGg.png?1)
 
 
 
