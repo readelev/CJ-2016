@@ -1,6 +1,6 @@
 # Hey! Welcome to week five.
 
-![alt tag](http://gph.is/1rbm3pq)
+![alt tag](http://raw.githubusercontent.com/readelev/cj-2016/blob/master/flask-recalls-practice/StanfordRobotics_giphy.gif)
 
 # Homework
 
