@@ -15,7 +15,7 @@ Uses this data (https://github.com/datademofun/matplotlibsampler/tree/master/dat
 
 [This script](https://github.com/readelev/cj-2016/tree/master/3-charts/stocks-simple.py) makes this:
 
-![img](http://i.imgur.com/CU1xzGV.png?1)
+![img](http://i.imgur.com/jCqWMw4.png?1)
 
 ## 2. A scatterplot showing the relationship between two independent variables
 
