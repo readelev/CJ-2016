@@ -1,12 +1,9 @@
 import csv
 import requests
-from os.path import join
+
 import matplotlib.pyplot as plt
 import pandas as pd
 
-%matplotlib
-
-## note to self: cd into correct folder
 fname = 'STOCKS.csv'
 df = pd.read_csv(fname, parse_dates=['Date'])
 fig, ax = plt.subplots()
@@ -22,7 +19,6 @@ plt.tick_params(axis="both", which="both", bottom="off", top="off",
                 labelbottom="on", left="off", right="off", labelleft="on") 
 
 # pretty colors
-# use much prettier colors :)
 tableau6 = [(255, 127, 14), (227, 119, 194), (44, 160, 44), (214, 39, 40), (109, 204, 218), (31, 119, 180)]
 
 # Scale the RGB values to the [0, 1] range, which is the format matplotlib accepts.    
@@ -45,21 +41,12 @@ COLUMNS = ['AAPL', 'AMZN', 'FB', 'GOOG', 'MSFT', 'YHOO']
 for rank, column in enumerate(COLUMNS) :
 	plt.plot(df['Date'], df[column.replace("\n", " ")].values, color=tableau6[rank], alpha=1.00, linewidth=2)
 
-	# Note that if the title is descriptive enough, it is unnecessary to include    
-# axis labels; they are self-evident, in this plot's case.    
-plt.text(2011, 700, "Comparison of stock performance (2011-2015)", fontsize=17, ha="center")    
-  
-# Always include your data source(s) and copyright notice! And for your    
-# data sources, tell your viewers exactly where the data came from,    
-# preferably with a direct link to the data. Just telling your viewers    
-# that you used data from the "U.S. Census Bureau" is completely useless:    
-# the U.S. Census Bureau provides all kinds of data, so how are your    
-# viewers supposed to know which data set you used?    
+ax.legend()
+ax.set_title("Stock prices at close (2011-2015)", fontsize=20)
+ax.set_ylabel('Price ($)', fontsize=16)
+ax.set_xlabel('Date', fontsize=16)
+   
 plt.text(2011, -8, "Data source: Yahoo Finance"    
        "\nCompiled: Dan Nguyen (danwin.com / @dancow)", fontsize=10)    
-  
-# Finally, save the figure as a PNG.    
-# You can also save it as a PDF, JPEG, etc.    
-# Just change the file extension in this call.    
-# bbox_inches="tight" removes all the extra whitespace on the edges of your plot.    
+
 plt.savefig("stock-comparison-2011-2015.png", bbox_inches="tight")  
