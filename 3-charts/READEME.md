@@ -27,13 +27,17 @@ It's not very pretty, but it does do its job, showing that there is **no correla
 
 The outlier is Obama, who has a dispproportionate number of followers (over 74 million) compared to tweets (14k).
 
-**Still working on (a) getting my colorbars to match; and (b) scaling the size of dots to correlate to # of followers.**
+Perhaps it's worth removing him and taking another look at the data -- perhaps there is a correlation and Obama (as an outlier) is skewing the data?
+
+*Still working on (a) getting my colorbars to match, and (b) scaling the size of dots to correlate to number of followers.*
 
 ## 3. A stacked bar chart with categorical variables. An example: Number of twitter followers by congressional party and gender
 
 [This script](https://github.com/readelev/cj-2016/tree/master/3-charts/tweets.py) makes this:
 
-![img](http://i.imgur.com/CU1xzGV.png?1)
+![img](http://i.imgur.com/B3TVGn9.png?1)
+
+RAWR. Can't get this to work yet.
 
 ___
 
