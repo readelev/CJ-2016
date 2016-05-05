@@ -21,7 +21,13 @@ Uses this data (https://github.com/datademofun/matplotlibsampler/tree/master/dat
 
 [This script](https://github.com/readelev/cj-2016/tree/master/3-charts/scatter.py) makes this:
 
-![img](http://i.imgur.com/CU1xzGV.png?1)
+![img](http://i.imgur.com/18A9K5y.png?1)
+
+It's not very pretty, but it does do its job, showing that there is **no correlation between the number of times a congress-person tweets and how many followers they have.**
+
+The outlier is Obama, who has a dispproportionate number of followers (over 74 million) compared to tweets (14k).
+
+**Still working on (a) getting my colorbars to match; and (b) scaling the size of dots to correlate to # of followers.**
 
 ## 3. A stacked bar chart with categorical variables. An example: Number of twitter followers by congressional party and gender
 
